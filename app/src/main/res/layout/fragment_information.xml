@@ -23,7 +23,7 @@
                 android:layout_height="25dp"
                 android:layout_marginTop="10dp"
                 android:text="Address"
-                android:textSize="20dp"
+                android:textSize="14dp"
                 android:paddingLeft="10dp"
                 android:textColor="@color/colorPrimary"/>
             <TextView
@@ -31,6 +31,7 @@
                 android:layout_height="50dp"
                 android:text="Address here"
                 android:textSize="14dp"
+                android:id="@+id/tv_address"
                 android:textColor="#808080"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="5dp"/>
@@ -56,7 +57,7 @@
                 android:layout_height="25dp"
                 android:layout_marginTop="10dp"
                 android:text="Timing"
-                android:textSize="20dp"
+                android:textSize="14dp"
                 android:paddingLeft="10dp"
                 android:textColor="@color/colorPrimary"/>
             <TextView
@@ -66,6 +67,7 @@
                 android:textSize="14dp"
                 android:textColor="#808080"
                 android:paddingLeft="10dp"
+                android:id="@+id/tv_timing"
                 android:layout_marginTop="5dp"/>
 
         </LinearLayout>
@@ -89,7 +91,7 @@
                 android:layout_height="25dp"
                 android:layout_marginTop="10dp"
                 android:text="Phone"
-                android:textSize="20dp"
+                android:textSize="14dp"
                 android:paddingLeft="10dp"
                 android:textColor="@color/colorPrimary"/>
             <TextView
@@ -98,6 +100,7 @@
                 android:text="+91-526398248"
                 android:textSize="14dp"
                 android:textColor="#808080"
+                android:id="@+id/tv_phone"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="5dp"/>
 
@@ -121,7 +124,7 @@
                 android:layout_height="25dp"
                 android:layout_marginTop="10dp"
                 android:text="Website"
-                android:textSize="20dp"
+                android:textSize="14dp"
                 android:paddingLeft="10dp"
                 android:textColor="@color/colorPrimary"/>
             <TextView
@@ -131,6 +134,7 @@
                 android:textSize="14dp"
                 android:textColor="#808080"
                 android:paddingLeft="10dp"
+                android:id="@+id/tv_websiteurl"
                 android:layout_marginTop="5dp"/>
 
         </LinearLayout>

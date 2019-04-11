@@ -16,6 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:padding="10dp"
+        android:id="@+id/tv_description"
         android:textColor="#808080"
         android:text="Detailes will be here wait for it"
         />
