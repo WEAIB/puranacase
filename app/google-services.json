@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "455627826885",
+    "firebase_url": "https://kashidarshanadmin.firebaseio.com",
+    "project_id": "kashidarshanadmin",
+    "storage_bucket": "kashidarshanadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455627826885:android:42832b0fa80965e0",
+        "android_client_info": {
+          "package_name": "aib.kashidarshanadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455627826885-63ui6l2kqt9r424bs6ur25ludj9ch9jl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aib.kashidarshanadmin",
+            "certificate_hash": "8cee9654c467ff5a9148236772dba71b281783db"
+          }
+        },
+        {
+          "client_id": "455627826885-5c6es9rvhf2du5i3sqtcsud8o6qdcpab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIDIZ958XkTJtX8Q-ey5V8p-y7zrSq6ZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455627826885-5c6es9rvhf2du5i3sqtcsud8o6qdcpab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455627826885:android:0ae80f1798a22bc4",
+        "android_client_info": {
+          "package_name": "appoworld.workingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455627826885-5c6es9rvhf2du5i3sqtcsud8o6qdcpab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIDIZ958XkTJtX8Q-ey5V8p-y7zrSq6ZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455627826885-5c6es9rvhf2du5i3sqtcsud8o6qdcpab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
