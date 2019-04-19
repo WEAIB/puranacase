@@ -25,10 +25,15 @@ public class PlaceDescriptionActivity extends AppCompatActivity {
     private ImageView ivPlaceImage;
     private DatabaseReference imageRef;
     private KProgressHUD kProgressHUD;
+    private String strPlacename;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        strPlacename=getIntent().getStringExtra("placename");
+        Constants.root=strPlacename;
+
         tabLayout = findViewById(R.id.tablayout_id);
         viewPager =findViewById(R.id.viewpager_id);
         ivPlaceImage=(ImageView)findViewById(R.id.iv_place_image);
@@ -47,10 +52,11 @@ public class PlaceDescriptionActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
 
-        FirebaseDatabase.getInstance().getReference("Hotel").child("Taj hotel").addValueEventListener(new ValueEventListener() {
+        FirebaseDatabase.getInstance().getReference("Hotel").child(strPlacename).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if(dataSnapshot!=null){
+                    dataSnapshot.child("imageURL").getValue();
                     Picasso.get().load(dataSnapshot.child("imageURL").getValue().toString()).into(ivPlaceImage, new Callback() {
                         @Override
                         public void onSuccess() {

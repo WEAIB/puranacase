@@ -31,7 +31,7 @@ public class FragmentItemDescription extends Fragment {
         view = inflater.inflate(R.layout.fragment_description,container,false);
         tvDescription=(TextView)view.findViewById(R.id.tv_description);
 
-        FirebaseDatabase.getInstance().getReference("Hotel").child("Taj hotel").addValueEventListener(new ValueEventListener() {
+        FirebaseDatabase.getInstance().getReference("Hotel").child(Constants.root).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if(dataSnapshot!=null){

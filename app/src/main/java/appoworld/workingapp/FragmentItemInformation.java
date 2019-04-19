@@ -37,7 +37,7 @@ public class FragmentItemInformation extends Fragment {
         tvwebsiteurl = (TextView) view.findViewById(R.id.tv_websiteurl);
 
 
-        FirebaseDatabase.getInstance().getReference("Hotel").child("Taj hotel").addValueEventListener(new ValueEventListener() {
+        FirebaseDatabase.getInstance().getReference("Hotel").child(Constants.root).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if(dataSnapshot!=null){
