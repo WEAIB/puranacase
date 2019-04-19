@@ -25,13 +25,15 @@ public class PlaceDescriptionActivity extends AppCompatActivity {
     private ImageView ivPlaceImage;
     private DatabaseReference imageRef;
     private KProgressHUD kProgressHUD;
-    private String strPlacename;
+    private String strPlacename,strType;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         strPlacename=getIntent().getStringExtra("placename");
+        strType=getIntent().getStringExtra("type");
+
         Constants.root=strPlacename;
 
         tabLayout = findViewById(R.id.tablayout_id);
@@ -52,7 +54,7 @@ public class PlaceDescriptionActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
 
-        FirebaseDatabase.getInstance().getReference("Hotel").child(strPlacename).addValueEventListener(new ValueEventListener() {
+        FirebaseDatabase.getInstance().getReference(strType).child(strPlacename).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if(dataSnapshot!=null){
