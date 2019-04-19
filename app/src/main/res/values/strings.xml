@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">WorkingApp</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_favourite">Favourite</string>
+    <string name="btn_food">Foodie</string>
+    <string name="btn_near">Near Me</string>
+    <string name="btn_popular">Popular Places</string>
+    <string name="desc_img">Varanasi</string>
 </resources>

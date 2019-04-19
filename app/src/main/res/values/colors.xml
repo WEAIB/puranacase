@@ -3,4 +3,14 @@
     <color name="colorPrimary">#ED2939</color>
     <color name="colorPrimaryDark">#FF2400</color>
     <color name="colorAccent">#822222</color>
+    <color name="white_text">#fff</color>
+    <color name="yellow_btn">#F4B400</color>
+    <color name="blue_btn">#4285F4</color>
+    <color name="red_btn">#DB4437</color>
+    <color name="green_brn">#0F9D58</color>
+
+    <color name="notification_color">#0288d1</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="navfun">#FF6666</color>
 </resources>
